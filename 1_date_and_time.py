@@ -22,7 +22,7 @@ def print_days():
 
 
 
-from datetime import datetime
+
 def str_2_datetime(date_string):
     
     timestring = datetime.strptime("01/01/20 12:10:03.234567", '%d/%m/%y %H:%M:%S.%f')
